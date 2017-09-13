@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5">
+
+    <ScrollView
+        android:id="@+id/scroll_yourself"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:scrollbarSize="1dp"
+        android:scrollbarStyle="outsideOverlay">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apply_heading1"
+                    android:layout_gravity="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apply_step2"
+                    android:layout_gravity="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                <TextView
+                    android:id="@+id/vehicle_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:text="Toyota Land Cruiser"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+                <TextView
+                    android:id="@+id/vehicle_fueltype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fuel Type: Petrol"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                <TextView
+                    android:id="@+id/vehicle_model"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model: LC 200 , 4461 CC"
+                    android:textColor="@color/black"
+                    android:paddingBottom="10dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apply_car_reg_no"
+                        android:layout_gravity="start"
+                        android:textColor="@color/black"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                    <TextView
+                        android:id="@+id/car_reg_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13276895"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apply_car_reg_date"
+                        android:layout_gravity="start"
+                        android:textColor="@color/black"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                    <TextView
+                        android:id="@+id/car_reg_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="22/05/2016"
+                        android:layout_gravity="start"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:layout_weight="4.1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apply_policy_no"
+                    android:textColor="@color/black"
+                    android:paddingBottom="5dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                <EditText
+                    android:id="@+id/vehicle_policy_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_box"
+                    android:textColor="@color/black"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apply_car_engine_no"
+                    android:textColor="@color/black"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="10dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                <EditText
+                    android:id="@+id/vehicle_car_engine_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_box"
+                    android:textColor="@color/black"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apply_car_chassis_no"
+                    android:textColor="@color/black"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="10dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+                <EditText
+                    android:id="@+id/vehicle_car_chassis_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_box"
+                    android:textColor="@color/black"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_continue_vehicle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/button_continue"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button_next" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Aggregator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_compare">Compare and Apply</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>""</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="activity_title_insurer">Insurers</string>
+    <string name="activity_compare">Compare and Apply</string>
+    <string name="activity_title_personal_details">Personal Details</string>
+    <string name="activity_title_vehicle_details">Vehicle Details</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- Home screen text -->
+    <string name="home_autoinsurance">Auto\nInsurance</string>
+    <string name="home_autoinsurance_sub">Lorem ipsum dolor sit amet\nConsectetur adipiscing elit</string>
+    <string name="homecar_heading">Tell Us About Your Car</string>
+    <!-- Home screen Fileds text -->
+    <string name="home_new_car_radiobtn">New Policy</string>
+    <string name="home_existing_car_radiobtn">Third Party Policy</string>
+    <string name="home_vehicle_usage">Vehicle Usage*</string>
+    <string name="home_vehicle_type">Vehicle Type*</string>
+    <string name="home_make">Vehicle Make*</string>
+    <string name="home_model">Vehicle Model*</string>
+    <string name="home_varient">Vehicle Variant*</string>
+    <string name="home_select_rto">Place of Registration*</string>
+    <string name="home_price">Price* (OMR)</string>
+    <string name="home_registration_date">Insurer Start Date*</string>
+    <string name="home_yom">Year of Manofacture*</string>
+
+    <string name="home_heading">Tell Us About Yourself</string>
+    <string name="home_name">Full Name*</string>
+    <string name="home_age">Age*</string>
+    <string name="home_mobileno">Mobile No.*</string>
+    <string name="home_nationalId">National ID*</string>
+    <string name="home_email">E-mail*</string>
+    <string name="home_terms_condition">By clicking, I agree that I have read, understood and agree to the Privacy Policy and User Agreement Provided.</string>
+
+    <!-- Button text -->
+    <string name="button_next">Next</string>
+    <string name="button_get_quote">Get Quotes</string>
+    <string name="button_apply">Buy</string>
+    <string name="button_compare">Compare</string>
+    <string name="button_view">View</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_pay_securely">Pay Securely</string>
+    <string name="button_pay_amount">Pay Amount</string>
+    <string name="button_go_back">Go Back</string>
+    <string name="button_rate">Rate</string>
+    <string name="button_gallery">From Gallery</string>
+    <string name="button_camera">From Camera</string>
+    <string name="button_back_to_list">Back to List</string>
+    <string name="button_done">Done</string>
+
+    <!-- Compare and Apply text -->
+    <string name="compare_select_company">Select Company</string>
+    <string name="compare_allquote">All Quotes</string>
+    <string name="compare_fivequote">Lowest 5 Quotes</string>
+    <string name="compare_breakup">Breakup</string>
+    <string name="compare_aed">OMR</string>
+    <string name="compare_annual_premium">Annual Premium</string>
+    <string name="compare_features">Features</string>
+    <string name="compare_coverage">Coverage</string>
+    <string name="compare_details">Details</string>
+    <string name="compare_claim_form">Claim Form</string>
+    <string name="compare_about_company">Allianz is an international banking group with a presence in 75 countries. It is listed on the First Market of Euronext Paris and is included in the CAC 40 index.</string>
+
+    <string name="apply_heading">Owner Details</string>
+    <string name="apply_heading1">Vehicles Details</string>
+    <string name="apply_review_information">Review Your Information</string>
+    <string name="apply_choose_option">Choose an Option</string>
+    <string name="apply_debit_credit">Debit/Credit Card</string>
+    <string name="apply_thank_you">Thank You</string>
+    <string name="apply_step1">Step 1 of 2</string>
+    <string name="apply_step2">Step 2 of 2</string>
+    <string name="apply_age">Age: 35</string>
+    <string name="apply_mobile">Mobile No: 00000000000</string>
+    <string name="apply_email">Email: sample@email.com</string>
+    <string name="apply_address">Address</string>
+    <string name="apply_upload">Upoad Driving Licence/Residence Card/Mulkiya</string>
+    <string name="apply_car_reg_no">Car Registration No.</string>
+    <string name="apply_car_reg_date">Car Registration Date</string>
+    <string name="apply_policy_no">Policy Number</string>
+    <string name="apply_car_engine_no">Car Engine Number</string>
+    <string name="apply_car_chassis_no">Car Chassis Number</string>
+    <string name="apply_terms">By clicking \'Pay Amount\' you agree to</string>
+    <string name="apply_terms_of_use">Terms of Use</string>
+    <string name="apply_idv">IDV (Cover Amount)</string>
+    <string name="apply_policy_start">Policy Starts 26/07/2017</string>
+    <string name="apply_policy_end">Policy Ends 25/07/2018</string>
+    <string name="apply_office">Office No. 0001, Emirate Towers, \nSh. Zayed Road, Dubai, U.A.E.</string>
+    <string name="apply_save_card">Save this card for future transactions?</string>
+    <string name="apply_debit_card">Credit/Debit Card</string>
+    <string name="apply_online">Online Banking</string>
+    <string name="apply_enter_card_no">Enter card number</string>
+    <string name="apply_card_name">Name as on card</string>
+    <string name="apply_card_total_amount">Total Amount</string>
+    <string name="apply_card_hint">0000 0000 0000 0000</string>
+    <string name="apply_card_expiry_hint">MM/YYYY</string>
+    <string name="apply_card_cvv_hint">CVV number</string>
+    <string name="apply_card_name_hint">Lorem lipsum dolor</string>
+    <string name="apply_thank_you_heading">Thank You!</string>
+    <string name="apply_thank_processed">Your payment was \nprocessed successfully</string>
+    <string name="apply_thank_transaction">Your transaction has been completed, and a receipt for your purchase has been emailed to you.</string>
+    <string name="apply_thank_like_app">Do you like our app?</string>
+    <string name="apply_thank_if_like_app">If you like our app, please take a moment \nto rate it in the app store</string>
+
+    <!-- Compare View and Apply text -->
+    <string name="compare_company_name">Company Name</string>
+    <string name="compare_product">Company Product</string>
+    <string name="compare_primium">Primium</string>
+    <string name="compare_covers">Covers</string>
+    <string name="compare_attribute">Attributes</string>
+    <string name="compare_fees">Fees</string>
+    <string name="compare_coverPremium">Cover Premium</string>
+
+    <string name="upload_photo">Upload Photo</string>
+
+    <string name="permission_rationale">"Storage permission is needed for fetching images from Gallery."</string>
+
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+
+    <string name="policy_information">This is a policy acknowledgement sample that you can use when employees need to acknowledge their receipt and understanding of a policy.
+        It is an effective way to ensure, as an employer, that you have made an effort to make sure that employees are informed of new workplace policies and expectations. When an employee is new and
+        you need him or her to get up-to-speed on all of your organization\'s policies, use the employee handbook to share the policies. This receipt works for employees to acknowledge receipt of the handbook.
+        This policy receipt acknowledgement is for occasions when you introduce a new policy or change an existing policy and need employees to know. Most frequently supplied during an informational meeting
+        or in-house training session, the policy receipt is filled out under the direction of HR staff at the end of the meeting. This is a policy acknowledgement sample that you can use when employees need to acknowledge their receipt and understanding of a policy.
+        It is an effective way to ensure, as an employer, that you have made an effort to make sure that employees are informed of new workplace policies and expectations. When an employee is new and
+        you need him or her to get up-to-speed on all of your organization\'s policies, use the employee handbook to share the policies. This receipt works for employees to acknowledge receipt of the handbook.
+        This policy receipt acknowledgement is for occasions when you introduce a new policy or change an existing policy and need employees to know. Most frequently supplied during an informational meeting
+        or in-house training session, the policy receipt is filled out under the direction of HR staff at the end of the meeting.</string>
+
+    <!-- Progress Dialog -->
+    <string name="progress_heading">Fetching</string>
+    <string name="progress_redirecting">Redirecting </string>
+    <string name="progress_text">Please Wait…</string>
+
+    <!-- Network Error -->
+    <string name="network_availability_heading">No Internet Connection</string>
+    <string name="network_availability">We cannot detect any Internet Connection. Please check your Internet Connection and Try Again.</string>
+    <string name="network_failure">Oops! something went wrong can you Try Again.</string>
+    <string name="no_data_error">Sorry we could not find quotes for your vehicle details.</string>
+
+</resources>

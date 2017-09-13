@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/vehicle_tab_usage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Vehicle Usage: "
+        android:textColor="@color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/compare_divider"
+        android:paddingTop="5dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vehicle_tab_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Vehicle Type: "
+        android:textColor="@color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/compare_divider"
+        android:paddingTop="5dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vehicle_tab_make"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Vehicle Make: TOYOTA"
+        android:textColor="@color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/compare_divider"
+        android:paddingTop="5dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vehicle_tab_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Vehicle Model: LAND CRUISER PRADO"
+        android:textColor="@color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/compare_divider"
+        android:paddingTop="5dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vehicle_tab_variant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Vehicle Variant: VX"
+        android:textColor="@color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/compare_divider"
+        android:paddingTop="5dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vehicle_tab_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Place of Registration: "
+        android:textColor="@color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/compare_divider"
+        android:paddingTop="5dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vehicle_tab_regdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Date of Registration: "
+        android:textColor="@color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/compare_divider"
+        android:paddingTop="5dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vehicle_tab_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Price: "
+        android:textColor="@color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/compare_divider"
+        android:paddingTop="5dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vehicle_tab_policy_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Policy Type: New Car Policy"
+        android:textColor="@color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/compare_divider"
+        android:paddingTop="5dp">
+    </LinearLayout>
+</LinearLayout>
