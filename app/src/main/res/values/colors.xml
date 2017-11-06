@@ -13,4 +13,5 @@
     <color name="compare_breakup">#0e87ee</color>
     <color name="compare_divider">#cdcdcd</color>
     <color name="compare_save_card">#9a9a9a</color>
+    <color name="text_medium_color">#595959</color>
 </resources>

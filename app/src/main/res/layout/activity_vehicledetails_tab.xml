@@ -11,8 +11,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="Vehicle Usage: "
-        android:textColor="@color/black"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        android:textColor="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,8 +28,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="Vehicle Type: "
-        android:textColor="@color/black"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        android:textColor="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,8 +45,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="Vehicle Make: TOYOTA"
-        android:textColor="@color/black"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        android:textColor="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -65,8 +62,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="Vehicle Model: LAND CRUISER PRADO"
-        android:textColor="@color/black"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        android:textColor="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -83,8 +79,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="Vehicle Variant: VX"
-        android:textColor="@color/black"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        android:textColor="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -101,8 +96,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="Place of Registration: "
-        android:textColor="@color/black"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        android:textColor="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -119,8 +113,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="Date of Registration: "
-        android:textColor="@color/black"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        android:textColor="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -137,8 +130,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="Price: "
-        android:textColor="@color/black"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        android:textColor="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -155,8 +147,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="Policy Type: New Car Policy"
-        android:textColor="@color/black"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        android:textColor="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"

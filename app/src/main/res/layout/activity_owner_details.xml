@@ -28,8 +28,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/apply_heading"
+                    android:textColor="@color/black"
                     android:layout_gravity="center"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
 
                 <TextView
                     android:id="@+id/apply_step"
@@ -37,7 +38,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/apply_step1"
                     android:layout_gravity="center"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                    android:textSize="@dimen/text_12"/>
 
                 <TextView
                     android:id="@+id/apply_name"
@@ -45,52 +46,45 @@
                     android:layout_height="wrap_content"
                     android:paddingTop="15dp"
                     android:text="Charlize Theron"
-                    android:textColor="@color/black"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/apply_age"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/apply_age"
-                    android:textColor="@color/black"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/apply_mobileNo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/apply_mobile"
-                    android:textColor="@color/black"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/apply_nationalID"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="National ID:"
-                    android:textColor="@color/black"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/apply_email"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/apply_email"
-                    android:textColor="@color/black"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                    android:layout_height="wrap_content"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/apply_address"
-                    android:textColor="@color/black"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                    android:textColor="@color/black"/>
             </LinearLayout>
 
             <LinearLayout
@@ -106,6 +100,7 @@
                     android:ems="10"
                     android:padding="10dp"
                     android:maxLines="6"
+                    android:textSize="@dimen/text_size"
                     android:inputType="textCapSentences|textMultiLine" />
             </LinearLayout>
 
@@ -121,8 +116,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/apply_upload"
                     android:textColor="@color/black"
-                    android:paddingBottom="5dp"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                    android:paddingBottom="5dp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -137,7 +131,6 @@
                         android:paddingEnd="15dp"
                         android:layout_gravity="center"
                         android:text="@string/button_gallery"
-                        android:textAllCaps="false"
                         android:background="@drawable/button_gallery"
                         android:drawableStart="@drawable/gallery_image"/>
 
@@ -157,7 +150,6 @@
                         android:paddingEnd="5dp"
                         android:layout_gravity="center"
                         android:text="@string/button_camera"
-                        android:textAllCaps="false"
                         android:drawableStart="@drawable/camera"
                         android:background="@drawable/button_camera" />
                 </LinearLayout>
@@ -195,7 +187,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/button_continue"
-                    android:textAllCaps="false"
                     android:textColor="@color/colorAccent"
                     android:background="@drawable/button_next" />
 

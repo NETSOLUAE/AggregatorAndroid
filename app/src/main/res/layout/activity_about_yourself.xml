@@ -27,7 +27,8 @@
                 android:paddingTop="10dp"
                 android:text="@string/home_heading"
                 android:textAlignment="center"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+                android:textColor="@color/black"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -46,6 +47,7 @@
                 android:imeOptions="actionDone"
                 android:background="@drawable/edittext_box"
                 android:textColor="@color/black"
+                android:textSize="@dimen/text_size"
                 android:inputType="textCapWords"
                 android:padding="5dp" />
 
@@ -67,6 +69,7 @@
                 android:maxLines="1"
                 android:imeOptions="actionNext"
                 android:inputType="number"
+                android:textSize="@dimen/text_size"
                 android:padding="5dp" />
 
             <TextView
@@ -87,8 +90,11 @@
                 android:maxLines="1"
                 android:imeOptions="actionNext"
                 android:inputType="phone"
+                android:maxLength="8"
                 android:hint="91234567"
                 android:padding="5dp"
+                android:textSize="@dimen/text_size"
+                android:drawablePadding="@dimen/text_padding"
                 android:ems="8"/>
 
             <TextView
@@ -109,6 +115,7 @@
                 android:maxLines="1"
                 android:imeOptions="actionNext"
                 android:inputType="phone"
+                android:textSize="@dimen/text_size"
                 android:padding="5dp" />
 
             <TextView
@@ -129,7 +136,24 @@
                 android:maxLines="1"
                 android:imeOptions="actionDone"
                 android:inputType="textEmailAddress"
+                android:textSize="@dimen/text_size"
                 android:padding="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:text="@string/home_employer"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/select_employer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_spinner_background"
+                android:spinnerMode="dropdown" />
 
             <CheckBox
                 android:id="@+id/checkBox"

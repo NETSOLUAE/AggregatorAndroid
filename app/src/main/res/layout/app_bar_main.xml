@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     app:elevation="0dp"
-    tools:context="com.netsol.rms.aggregator.activity.MainActivity">
+    tools:context=".Activity.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

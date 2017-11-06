@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/splash_screen_background"
-    tools:context="com.netsol.rms.aggregator.activity.SplashActivity">
+    tools:context=".Activity.SplashActivity">
 
     <ImageView
         android:id="@+id/zoom_image"

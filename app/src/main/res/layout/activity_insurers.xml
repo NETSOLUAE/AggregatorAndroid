@@ -14,18 +14,19 @@
         android:orientation="vertical"
         android:paddingEnd="10dp"
         android:paddingStart="10dp"
+        android:paddingTop="15dp"
         android:weightSum="5">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.2"
-            android:gravity="center_vertical"
-            android:paddingBottom="5dp"
-            android:paddingTop="10dp"
-            android:text="@string/compare_select_company"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            android:textColor="@color/black" />
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.2"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:text="@string/compare_select_company"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"-->
+            <!--android:textColor="@color/black" />-->
 
         <Spinner
             android:id="@+id/select_company"
@@ -55,7 +56,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.35"
                     android:buttonTint="@color/colorPrimary"
                     android:text="@string/compare_allquote" />
 
@@ -78,7 +79,9 @@
             android:divider="@color/background"
             android:dividerHeight="10dp"
             android:paddingBottom="10dp"
-            android:scrollbarSize="1dp"></ListView>
+            android:scrollbarSize="1dp">
+
+        </ListView>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -215,26 +218,26 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.34"
                     android:paddingBottom="10dp"
                     android:paddingTop="5dp"
                     android:text="@string/compare_annual_premium"
                     android:textColor="@color/black" />
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="0.5">
+                    android:layout_weight="0.66"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="10dp">
 
                     <TextView
                         android:id="@+id/breakup"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="10dp"
-                        android:paddingEnd="5dp"
-                        android:paddingStart="10dp"
                         android:paddingTop="5dp"
-                        android:text="6640"
+                        android:text="220.008"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
@@ -244,7 +247,7 @@
                         android:paddingBottom="10dp"
                         android:paddingEnd="5dp"
                         android:paddingTop="5dp"
-                        android:text="@string/compare_aed"
+                        android:text=" OMR"
                         android:textAppearance="?android:attr/absListViewStyle"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
@@ -302,47 +305,26 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="0.5"
+                        android:layout_weight="0.34"
                         android:paddingBottom="10dp"
                         android:text="@string/compare_coverage"
                         android:textColor="@color/black" />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.42">
+                        android:layout_weight="0.66"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="10dp">
 
                         <TextView
                             android:id="@+id/details"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:paddingBottom="10dp"
-                            android:paddingEnd="5dp"
-                            android:paddingStart="10dp"
                             android:text="@string/compare_details"
                             android:clickable="true"
-                            android:textColor="@color/compare_breakup" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:paddingBottom="10dp"
-                            android:paddingEnd="5dp"
-                            android:textAppearance="?android:attr/absListViewStyle"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/claimForm"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:paddingBottom="10dp"
-                            android:paddingEnd="10dp"
-                            android:paddingStart="5dp"
-                            android:text="@string/compare_claim_form"
-                            android:clickable="true"
-                            android:visibility="invisible"
-                            android:textColor="@color/compare_breakup" />
+                            android:textColor="@color/colorPrimary" />
                     </LinearLayout>
 
             </LinearLayout>
@@ -362,7 +344,6 @@
                     android:layout_gravity="center"
                     android:background="@drawable/button_next"
                     android:text="@string/button_apply"
-                    android:textAllCaps="false"
                     android:textColor="@color/colorAccent" />
 
             </LinearLayout>
@@ -382,13 +363,12 @@
 
             <Button
                 android:id="@+id/backToList"
-                android:layout_width="wrap_content"
+                android:layout_width="120dp"
                 android:layout_height="40dp"
                 android:text="@string/button_back_to_list"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:background="@drawable/button_view"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 android:textColor="@color/colorAccent"/>
 
         </LinearLayout>

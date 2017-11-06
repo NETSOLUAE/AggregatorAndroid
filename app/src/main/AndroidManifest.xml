@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.netsol.rms.aggregator">
+    package="com.rmsllcoman.agg">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="true"
@@ -15,7 +17,7 @@
         android:roundIcon="@drawable/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.SplashActivity"
+        <activity android:name=".Activity.SplashActivity"
                   android:theme="@style/AppTheme.NoActionBar"
                   android:screenOrientation="portrait">
             <intent-filter>
@@ -24,70 +26,74 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity"
+        <activity android:name=".Activity.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name=".activity.AboutUsActivity"
+            android:name=".Activity.AboutUsActivity"
             android:label="@string/activity_title_about_us"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.PrivacyPolicyActivity"
+            android:name=".Activity.PrivacyPolicyActivity"
             android:label="@string/activity_title_privacy_policy"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.CompareActivity"
+            android:name=".Activity.CompareActivity"
             android:label="@string/activity_compare"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.AboutYourselfActivity"
+            android:name=".Activity.AboutYourselfActivity"
             android:label="@string/activity_compare"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.CompareCompanyActivity"
+            android:name=".Activity.CompareCompanyActivity"
             android:label="@string/activity_compare" />
         <activity
-            android:name=".activity.OwnerDetailsActivity"
+            android:name=".Activity.OwnerDetailsActivity"
             android:label="@string/activity_compare" />
         <activity
-            android:name=".activity.VehicleDetailsActivity"
+            android:name=".Activity.VehicleDetailsActivity"
             android:label="@string/activity_compare"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ReviewActivity"
+            android:name=".Activity.ReviewActivity"
             android:label="@string/activity_compare"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.PaymentOptionActivity"
+            android:name=".Activity.PaymentOptionActivity"
             android:label="@string/activity_compare"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.MakePaymentActivity"
+            android:name=".Activity.MakePaymentActivity"
             android:label="@string/activity_compare"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ThankyouActivity"
+            android:name=".Activity.ThankyouActivity"
             android:label="@string/activity_compare"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.Insurers"
+            android:name=".Activity.Insurers"
+            android:theme="@style/AppTheme.NoActionBarDialog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.PersonalDetails"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.PersonalDetails"
+            android:name=".Activity.VehicleDetailsTabActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.VehicleDetailsTabActivity"
+            android:name=".Activity.ImageAttachmentActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.ImageAttachmentActivity"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Activity.MultiPhotoSelectActivity"
+            android:label="@string/activity_compare"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.MultiPhotoSelectActivity"
+            android:name=".Activity.WebViewActivity"
             android:label="@string/activity_compare"
             android:screenOrientation="portrait" />
     </application>

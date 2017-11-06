@@ -28,7 +28,8 @@
                 android:text="@string/apply_review_information"
                 android:layout_gravity="center"
                 android:paddingBottom="15dp"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+                android:textColor="@color/black"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
 
             <!--<ImageView-->
                 <!--android:id="@+id/review_company_logo"-->
@@ -44,8 +45,9 @@
                 android:layout_gravity="center"
                 android:paddingTop="3dp"
                 android:text="Allianze Worldwide Care"
-                android:textColor="@color/black"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+                android:textStyle="bold"
+                android:textSize="@dimen/text_15"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
             <LinearLayout
@@ -66,8 +68,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/apply_policy_start"
                         android:layout_gravity="start"
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_policy_end"
@@ -76,8 +77,7 @@
                         android:paddingTop="5dp"
                         android:text="@string/apply_policy_end"
                         android:layout_gravity="start"
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                 </LinearLayout>
                 <LinearLayout
@@ -98,8 +98,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/apply_idv"
                         android:layout_gravity="start"
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_idv"
@@ -109,8 +108,7 @@
                         android:text="20000 OMR"
                         android:layout_gravity="start"
                         android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                 </LinearLayout>
             </LinearLayout>
@@ -142,33 +140,28 @@
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
                         android:text="Charlize Theron"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_age"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/apply_age"
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_mobileNo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/apply_mobile"
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_nationalID"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="National ID: "
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_email"
@@ -176,8 +169,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/apply_email"
                         android:textColor="@color/black"
-                        android:paddingBottom="10dp"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:paddingBottom="10dp"/>
 
                     <TextView
                         android:id="@+id/review_address"
@@ -185,8 +177,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/apply_office"
                         android:textColor="@color/black"
-                        android:paddingBottom="10dp"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:paddingBottom="10dp"/>
 
                 </LinearLayout>
 
@@ -209,66 +200,56 @@
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
                         android:text="Toyota Land Cruiser"
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_type"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Type: "
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_make"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Make: "
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_model"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Model: "
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_variant"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Variant: "
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_reg_place"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Place of Registration: 22/05/2016"
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_reg_date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Date of Registration: "
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                     <TextView
                         android:id="@+id/review_price"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Price: "
-                        android:textColor="@color/black"
-                        android:textStyle="bold"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/black"/>
 
                 </LinearLayout>
 
@@ -305,7 +286,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="@string/button_pay_amount"
-                    android:textAllCaps="false"
                     android:textColor="@color/colorAccent"
                     android:background="@drawable/button_next" />
 
@@ -319,15 +299,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/apply_terms"
-                        android:layout_gravity="center"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:layout_gravity="center"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/apply_terms_of_use"
                         android:layout_gravity="center"
-                        android:textColor="@color/colorPrimary"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                        android:textColor="@color/colorPrimary"/>
 
                 </LinearLayout>
 

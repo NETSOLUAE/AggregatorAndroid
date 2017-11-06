@@ -36,8 +36,8 @@
     <string name="home_autoinsurance_sub">Lorem ipsum dolor sit amet\nConsectetur adipiscing elit</string>
     <string name="homecar_heading">Tell Us About Your Car</string>
     <!-- Home screen Fileds text -->
-    <string name="home_new_car_radiobtn">New Policy</string>
-    <string name="home_existing_car_radiobtn">Third Party Policy</string>
+    <string name="home_new_car_radiobtn">Motor Comprehensive</string>
+    <string name="home_existing_car_radiobtn">Motor Third Party</string>
     <string name="home_vehicle_usage">Vehicle Usage*</string>
     <string name="home_vehicle_type">Vehicle Type*</string>
     <string name="home_make">Vehicle Make*</string>
@@ -45,8 +45,9 @@
     <string name="home_varient">Vehicle Variant*</string>
     <string name="home_select_rto">Place of Registration*</string>
     <string name="home_price">Price* (OMR)</string>
-    <string name="home_registration_date">Insurer Start Date*</string>
-    <string name="home_yom">Year of Manofacture*</string>
+    <string name="home_registration_date">Insurance Start Date*</string>
+    <string name="home_reg_date">Date of 1st Registration*</string>
+    <string name="home_yom">Year of Manufacture*</string>
 
     <string name="home_heading">Tell Us About Yourself</string>
     <string name="home_name">Full Name*</string>
@@ -54,6 +55,7 @@
     <string name="home_mobileno">Mobile No.*</string>
     <string name="home_nationalId">National ID*</string>
     <string name="home_email">E-mail*</string>
+    <string name="home_employer">Employer*</string>
     <string name="home_terms_condition">By clicking, I agree that I have read, understood and agree to the Privacy Policy and User Agreement Provided.</string>
 
     <!-- Button text -->
@@ -74,8 +76,8 @@
 
     <!-- Compare and Apply text -->
     <string name="compare_select_company">Select Company</string>
-    <string name="compare_allquote">All Quotes</string>
-    <string name="compare_fivequote">Lowest 5 Quotes</string>
+    <string name="compare_allquote">Comprehensive Insurance</string>
+    <string name="compare_fivequote">Third Party</string>
     <string name="compare_breakup">Breakup</string>
     <string name="compare_aed">OMR</string>
     <string name="compare_annual_premium">Annual Premium</string>
@@ -128,7 +130,7 @@
     <!-- Compare View and Apply text -->
     <string name="compare_company_name">Company Name</string>
     <string name="compare_product">Company Product</string>
-    <string name="compare_primium">Primium</string>
+    <string name="compare_primium">Premium</string>
     <string name="compare_covers">Covers</string>
     <string name="compare_attribute">Attributes</string>
     <string name="compare_fees">Fees</string>
@@ -161,5 +163,7 @@
     <string name="network_availability">We cannot detect any Internet Connection. Please check your Internet Connection and Try Again.</string>
     <string name="network_failure">Oops! something went wrong can you Try Again.</string>
     <string name="no_data_error">Sorry we could not find quotes for your vehicle details.</string>
+    <string name="contact_rms_error">RMS negotiated special rates for employees of</string>
+    <string name="contact_rms_error1">company.  Please contact +96824762679 for details.  Continue to see off the shelf rates</string>
 
 </resources>

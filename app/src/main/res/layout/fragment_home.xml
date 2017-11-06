@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.netsol.rms.aggregator.activity.fragment.HomeFragment">
+    tools:context=".fragment.HomeFragment">
 
     <ImageView
         android:id="@+id/imageView"
@@ -17,9 +17,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingEnd="32dp"
-        android:paddingLeft="32dp"
-        android:paddingStart="32dp"
+        android:paddingEnd="20dp"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
         android:scrollbarSize="1dp"
         android:scrollbarStyle="outsideOverlay">
 
@@ -36,27 +36,29 @@
                 android:paddingTop="10dp"
                 android:text="@string/homecar_heading"
                 android:textAlignment="center"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <RadioGroup
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/myRadioGroup"
-                android:layout_gravity="center"
-                android:layout_weight="0.05"
-                android:checkedButton="@+id/radio_button_newcar"
-                android:orientation="horizontal" >
+                    android:id="@+id/myRadioGroup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.05"
+                    android:checkedButton="@+id/radio_button_newcar"
+                    android:orientation="horizontal">
 
                     <RadioButton
                         android:id="@+id/radio_button_newcar"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_weight="0.05"
+                        android:layout_weight="0.06"
                         android:buttonTint="@color/colorPrimary"
                         android:text="@string/home_new_car_radiobtn" />
 
@@ -69,40 +71,43 @@
                         android:buttonTint="@color/colorPrimary"
                         android:text="@string/home_existing_car_radiobtn" />
                 </RadioGroup>
-            </LinearLayout><LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingBottom="5dp"
-            android:paddingTop="10dp">
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.7"
-                android:gravity="center_vertical"
-                android:text="@string/home_vehicle_usage"
-                android:textColor="@color/black" />
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp">
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.1"
-                android:gravity="center_vertical" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:gravity="center_vertical"
+                    android:text="@string/home_vehicle_usage"
+                    android:textColor="@color/black" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.7"
-                android:gravity="center_vertical"
-                android:text="@string/home_vehicle_type"
-                android:textColor="@color/black" />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:gravity="center_vertical"
+                    android:text="@string/home_vehicle_type"
+                    android:textColor="@color/black" />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -112,8 +117,8 @@
                         android:id="@+id/vehicle_usage"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:spinnerMode="dropdown"
-                        android:background="@drawable/custom_spinner_background" />
+                        android:background="@drawable/custom_spinner_background"
+                        android:spinnerMode="dropdown" />
                 </LinearLayout>
 
                 <TextView
@@ -131,8 +136,8 @@
                         android:id="@+id/vehicle_type"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:spinnerMode="dropdown"
-                        android:background="@drawable/custom_spinner_background"/>
+                        android:background="@drawable/custom_spinner_background"
+                        android:spinnerMode="dropdown" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -170,6 +175,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -179,8 +185,8 @@
                         android:id="@+id/vehicle_make"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:spinnerMode="dropdown"
-                        android:background="@drawable/custom_spinner_background" />
+                        android:background="@drawable/custom_spinner_background"
+                        android:spinnerMode="dropdown" />
                 </LinearLayout>
 
                 <TextView
@@ -198,8 +204,8 @@
                         android:id="@+id/vehicle_model"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:spinnerMode="dropdown"
-                        android:background="@drawable/custom_spinner_background"/>
+                        android:background="@drawable/custom_spinner_background"
+                        android:spinnerMode="dropdown" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -216,8 +222,8 @@
                 android:id="@+id/vehicle_varient"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
-                android:background="@drawable/custom_spinner_background" />
+                android:background="@drawable/custom_spinner_background"
+                android:spinnerMode="dropdown" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -232,8 +238,8 @@
                 android:id="@+id/vehicle_select_rto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:spinnerMode="dropdown"
-                android:background="@drawable/custom_spinner_background"/>
+                android:background="@drawable/custom_spinner_background"
+                android:spinnerMode="dropdown" />
 
 
             <LinearLayout
@@ -246,16 +252,10 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.7"
+                    android:layout_weight="0.8"
                     android:gravity="center_vertical"
-                    android:text="@string/home_registration_date"
+                    android:text="@string/home_reg_date"
                     android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.1"
-                    android:gravity="center_vertical" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -270,13 +270,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:id="@+id/home_registration_date"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.7"
-                    android:orientation="horizontal"
                     android:background="@drawable/edittext_box"
+                    android:orientation="horizontal"
                     android:weightSum="1">
 
                     <EditText
@@ -284,13 +285,14 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.86"
-                        android:textColor="@color/black"
-                        android:padding="5dp"
-                        android:maxLines="1"
-                        android:inputType="date"
-                        android:imeOptions="actionDone"
+                        android:backgroundTint="@android:color/transparent"
                         android:focusable="false"
-                        android:backgroundTint="@android:color/transparent"/>
+                        android:imeOptions="actionDone"
+                        android:inputType="date"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:textSize="@dimen/text_size"
+                        android:textColor="@color/black" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -299,10 +301,11 @@
                         android:layout_weight="0.1"
                         android:gravity="center"
                         android:orientation="vertical">
+
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/calender"/>
+                            android:background="@drawable/calender" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -322,29 +325,102 @@
                         android:id="@+id/vehicle_yom"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:spinnerMode="dropdown"
-                        android:background="@drawable/custom_spinner_background"/>
+                        android:background="@drawable/custom_spinner_background"
+                        android:spinnerMode="dropdown" />
                 </LinearLayout>
             </LinearLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:paddingBottom="5dp"
-                android:paddingTop="10dp"
-                android:text="@string/home_price"
-                android:textColor="@color/black" />
 
-            <EditText
-                android:id="@+id/home_price"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:padding="5dp"
-                android:maxLines="1"
-                android:inputType="none"
-                android:background="@drawable/edittext_box" />
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:gravity="center_vertical"
+                    android:text="@string/home_registration_date"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:gravity="center_vertical"
+                    android:text="@string/home_price"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/home_insurance_start_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/edittext_box"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/home_insurance_start_dateText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.86"
+                        android:backgroundTint="@android:color/transparent"
+                        android:focusable="false"
+                        android:imeOptions="actionDone"
+                        android:inputType="date"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:textSize="@dimen/text_size"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/calender" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:gravity="center_vertical" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7">
+
+                    <EditText
+                        android:id="@+id/home_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_box"
+                        android:inputType="none"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:textSize="@dimen/text_size"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"

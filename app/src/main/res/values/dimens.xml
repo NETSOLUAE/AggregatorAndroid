@@ -11,4 +11,8 @@
     <dimen name="profile_height">75dp</dimen>
 
     <dimen name="item_offset">2dp</dimen>
+    <dimen name="text_padding">28sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="text_12">12sp</dimen>
 </resources>
